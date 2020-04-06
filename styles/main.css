@@ -1,14 +1,64 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#mainbody{
   background-image: url("../assets/img/background.jpg");
   background-size: cover;
 }
 
-p, h1, h6, span{
+h1, span{
   font-family: 'IM Fell French Canon SC', serif;
+}
+
+a, h6{
+  font-family: 'Martel', serif;
 }
 
 .container-main{
   color: white;
   text-align: center;
   font-size: 3em;
+}
+
+.navbar{
+  display: grid;
+  position: fixed;
+  grid-template-columns: 2fr auto auto auto auto;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 10vh;
+  background-color: #4457C0;
+}
+
+.grid-item{
+  padding: 25px;
+  cursor: pointer;
+  font-family: 'Martel', serif;
+  font-size: 1.25em;
+}
+
+.footer{
+  display: grid;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #4457C0;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  align-content: center;
+}
+
+.footer-item-1{
+  color: white;
+  padding: 15px 45px;
+  font-family: 'Martel', serif;
+  font-size: 1.25em;
+}
+
+.footer-item-2{
+  padding: 15px 45px;
+  justify-self: end;
 }

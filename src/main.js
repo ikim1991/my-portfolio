@@ -24,5 +24,5 @@ dropMenu.addEventListener("mouseout", hideDropDown);
 
 // Adding functionality to the "Learn More" button
 function buttonFunction() {
-  document.location.href = ''
+  document.location.href = "./about.html"
 }
