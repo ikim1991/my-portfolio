@@ -17,14 +17,14 @@ a, h6{
 }
 
 .navbar{
-  display: grid;
   position: fixed;
+  display: grid;
   top: 0;
-  grid-template-columns: 2fr auto auto auto auto;
-  align-items: center;
-  align-content: center;
+  grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
   width: 100%;
   background-color: #4457C0;
+  align-items: center;
+  z-index: 4;
 }
 
 .nav-item{
@@ -32,7 +32,11 @@ a, h6{
   cursor: pointer;
   font-family: 'Martel', serif;
   font-size: 1.25em;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  text-align: center;
 }
+
 
 .main-container{
   width: 100%;
@@ -64,10 +68,10 @@ main h2:after{
 }
 
 .footer{
+  position: relative;
+  top: 78px;
   display: grid;
   width: 100%;
-  position: absolute;
-  bottom: 0;
   background-color: #4457C0;
   grid-template-columns: 2fr 1fr;
   align-items: center;
