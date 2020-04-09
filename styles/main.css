@@ -12,7 +12,7 @@ h1, span{
   font-family: 'IM Fell French Canon SC', serif;
 }
 
-a, h6{
+a, h6, p{
   font-family: 'Martel', serif;
 }
 
@@ -42,6 +42,25 @@ a, h6{
   width: 100%;
   position: relative;
   top: 78px;
+}
+
+.main-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+}
+
+.about-img{
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+}
+
+.about-content{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 50px;
 }
 
 main h2{
