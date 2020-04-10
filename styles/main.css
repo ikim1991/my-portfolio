@@ -44,7 +44,7 @@ a, h6, p{
   top: 78px;
 }
 
-.main-content{
+.main-content-about{
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-content: center;
@@ -61,6 +61,12 @@ a, h6, p{
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 50px;
+}
+
+.display-bar{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 main h2{
